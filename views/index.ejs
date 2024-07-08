@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Secret generator</title>
+   
+</head>
+<body>
+
+  
+  <h1>What's your secret?</h1>
+    
+    <div class="card">
+      <p>
+        <%= secret %>
+      </p>
+  
+  
+      <form id="myForm" method="post">
+      <!-- <label for="submit">Route:</label> -->
+      <input id="get" type="submit" value="SECRET" formaction="/get-secret">
+      </form>
+  
+    </div>
+
+
+
+
+</body>
+</html>
